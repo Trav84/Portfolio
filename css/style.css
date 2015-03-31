@@ -43,7 +43,7 @@ h1 {
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
 }
 a {
-  color: #717171;
+  color: white; /* #717171;*/
   text-decoration: none;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -52,7 +52,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: #3e3e3e;
+  color: #E35559;
 }
 .btn-outline-white {
   -webkit-border-radius: 4px;
@@ -379,7 +379,7 @@ a:hover {
   height: 164px;
   width: 164px;
 }
-#about .round-outline:hover {
+/*#about .round-outline:hover {
   border: 2px solid #fff;
 }
 #about .round-outline .round-photo-anchor {
@@ -426,8 +426,8 @@ a:hover {
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   color: #fff;
-}
-#about .round-outline .round-photo-anchor:hover .round-caption-bg {
+}*/
+/*#about .round-outline .round-photo-anchor:hover .round-caption-bg {
   opacity: 0.8;
   top: 0;
   left: 0;
@@ -452,7 +452,7 @@ a:hover {
   transition: all 0.3s ease-out;
   transition-delay: 0s;
   -webkit-transition-delay: 0s;
-}
+}*/
 #about .social-icons {
   margin-top: 20px;
 }
