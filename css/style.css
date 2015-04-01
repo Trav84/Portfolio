@@ -456,6 +456,18 @@ a:hover {
 #about .social-icons {
   margin-top: 20px;
 }
+#about .social-icons i {
+  color:white;
+  -webkit-transition: border 1s, background-color 1s, -webkit-transform 1s;
+  transition: border 1s,  background-color 1s, transform 1s;
+}
+#about span {
+  margin-top:1em;
+  font-size:1.5em;
+}
+#about a {
+  color:black;
+}
 #about .social-icons .icon-social {
   height: 60px;
   width: 60px;
@@ -470,11 +482,21 @@ a:hover {
   border: 2px solid #df5757;
   margin-top: 20px;
 }
-#about .social-icons .icon-facebook {
-  background: #ffffff url('../img/icon-facebook-red.png') center center no-repeat;
+#about .icon {
+  color:white;
+  background-color:#df5757;
+  border-radius: 50%;
+}
+#about .icon:hover {
+  color:#df5757;
+  background-color:white;
+  border-radius: 50%;
+}
+/*#about .social-icons .icon-facebook {
+  background: #ffffff center center no-repeat;
 }
 #about .social-icons .icon-facebook:hover {
-  background: #df5757 url('../img/icon-facebook-white.png') center center no-repeat;
+
 }
 #about .social-icons .icon-twitter {
   background: #ffffff url('../img/icon-twitter-red.png') center center no-repeat;
@@ -493,7 +515,7 @@ a:hover {
 }
 #about .social-icons .icon-dribbble:hover {
   background: #df5757 url('../img/icon-dribbble-white.png') center center no-repeat;
-}
+}*/
 /* ==========================================================================
    Services Section
    ========================================================================== */
